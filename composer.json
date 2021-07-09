@@ -1,0 +1,23 @@
+{
+    "name": "pedruhbl/simple-todo-backend",
+    "description": "Simple todo made by the Barcellos Brothers",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pedro Henrique",
+            "email": "pedruhbl@yahoo.com.br"
+        },
+        {
+            "name": "Victor Barcellos",
+            "email": "victorblopes52@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "4.3.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pedruhbl\\Todo\\": ""
+        }
+    }
+}
